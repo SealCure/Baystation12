@@ -4160,17 +4160,9 @@
 /turf/simulated/floor/plating,
 /area/hallway/primary/fourthdeck/aft)
 "ox" = (
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/effect/floor_decal/corner/paleblue{
-	dir = 9;
-	icon_state = "corner_white"
-	},
-/turf/simulated/floor/tiled,
-/area/hallway/primary/fourthdeck/fore)
+/obj/effect/shuttle_landmark/nav_fleet/torch,
+/turf/space,
+/area/space)
 "oy" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -26975,9 +26967,9 @@ ej
 me
 nk
 Se
-ox
+tT
 pJ
-ox
+tT
 sp
 tT
 vm
@@ -29570,7 +29562,7 @@ aa
 aa
 aa
 aa
-aa
+ox
 aa
 aa
 aa

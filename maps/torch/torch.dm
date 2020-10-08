@@ -169,6 +169,7 @@
 	#include "../away/lar_maria/lar_maria.dm"
 	#include "../away/voxship/voxship.dm"
 	#include "../away/skrellscoutship/skrellscoutship.dm"
+	#include "../away/sfv/sfvjeanne.dm"
 	#include "../away/meatstation/meatstation.dm"
 	#include "../away/miningstation/miningstation.dm"
 	#include "../away/scavver/scavver_gantry.dm"

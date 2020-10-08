@@ -1,3 +1,8 @@
+/datum/job/submap/fleet
+	branch = /datum/mil_branch/fleet
+	rank = /datum/mil_rank/fleet
+	required_language = LANGUAGE_HUMAN_EURO
+
 /datum/job/submap
 	branch = /datum/mil_branch/civilian
 	rank =   /datum/mil_rank/civ/civ

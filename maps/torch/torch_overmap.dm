@@ -17,6 +17,7 @@
 		"ITV Vulcan" = list("nav_hangar_gantry_torch_two"),
 		"ITV Spiritus" = list("nav_hangar_gantry_torch_three"),
 		"SRV Venerable Catfish" = list("nav_verne_5"), //docking location for verne shuttle
+		"SFV Panther" = list("nav_fleet_3"), //fleet patrol shuttle
 	)
 
 	initial_generic_waypoints = list(
@@ -76,6 +77,7 @@
 		"nav_skrellscout_dock",
 		"nav_ert_dock",
 		"nav_verne_5",
+		"nav_fleet_3",
 	)
 
 /obj/effect/overmap/visitable/ship/landable/exploration_shuttle
