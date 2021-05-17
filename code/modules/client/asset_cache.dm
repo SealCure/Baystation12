@@ -268,6 +268,29 @@ You can set verify to TRUE if you want send() to sleep until the client has the 
 		"v4shim.css"          = 'html/font-awesome/css/v4-shims.min.css'
 	)
 
+/datum/asset/simple/tetris
+	verify = FALSE
+	assets = list(
+		"tetris_0.gif"		= 'tetris/icons_tetris/tetris_0.gif',
+		"tetris_1.gif"		= 'tetris/icons_tetris/tetris_1.gif',
+		"tetris_2.gif"		= 'tetris/icons_tetris/tetris_2.gif',
+		"tetris_3.gif"		= 'tetris/icons_tetris/tetris_3.gif',
+		"tetris_4.gif"		= 'tetris/icons_tetris/tetris_4.gif',
+		"tetris_5.gif"		= 'tetris/icons_tetris/tetris_5.gif',
+		"tetris_6.gif"		= 'tetris/icons_tetris/tetris_6.gif',
+		"tetris_7.gif"		= 'tetris/icons_tetris/tetris_7.gif',
+		"tetrisp0.gif"		= 'tetris/icons_tetris/tetrisp0.gif',
+		"tetrisp1.gif"		= 'tetris/icons_tetris/tetrisp1.gif',
+		"tetrisp2.gif"		= 'tetris/icons_tetris/tetrisp2.gif',
+		"tetrisp3.gif"		= 'tetris/icons_tetris/tetrisp3.gif',
+		"tetrisp4.gif"		= 'tetris/icons_tetris/tetrisp4.gif',
+		"tetrisp5.gif"		= 'tetris/icons_tetris/tetrisp5.gif',
+		"tetrisp6.gif"		= 'tetris/icons_tetris/tetrisp6.gif',
+		"tetrisp7.gif"		= 'tetris/icons_tetris/tetrisp7.gif',
+		"tetris.js"			= 'tetris/js_tetris/tetris.js',
+		"tetris2.js"		= 'tetris/js_tetris/tetris2.js'
+	)
+
 /*
 	Asset cache
 */

@@ -156,6 +156,11 @@ won't update every console in existence) but it's more of a hassle to do. Also, 
 		to_chat(user, "<span class='notice'>You you disable the security protocols.</span>")
 		return 1
 
+/obj/machinery/computer/rdconsole/proc/GiveRandomResearch()
+	var/datum/tech/KT = pick(files.known_tech)
+	if(KT.level <= level)
+		KT.level++
+
 /obj/machinery/computer/rdconsole/CanUseTopic(var/mob/user, var/datum/topic_state/state, var/href_list)
 	if(href_list && href_list["menu"])
 		var/temp_screen = text2num(href_list["menu"])
@@ -879,7 +884,6 @@ won't update every console in existence) but it's more of a hassle to do. Also, 
 /obj/machinery/computer/rdconsole/core
 	name = "core fabricator console"
 	id = 1
-	
 
 #undef CHECK_LATHE
 #undef CHECK_IMPRINTER
